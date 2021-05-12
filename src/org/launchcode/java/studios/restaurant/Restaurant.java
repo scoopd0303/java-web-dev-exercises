@@ -12,10 +12,9 @@ public class Main {
         newMenu.add(lobster);
         newMenu.add(chickenTendies);
 
-
         Menu myMenu = new Menu(new Date(), newMenu);
         System.out.println(myMenu.printMenu(newMenu));
-
+        System.out.println(myMenu.toString());
 
     }
 }
